@@ -17,7 +17,7 @@ class NumberGuessingGame:
                     f"Well done, You got it in {chances + 1} guess{'es' if chances > 1 else''}!")
                 break
             elif user_number < random_number:
-                print(f"Your number is LESS than the random number ({user_number} < the random number)")
+                print(f"Your number is SMALLER than the random number ({user_number} < the random number)")
             else:
                 print(f"Your number is GREATER than the random number ({user_number} > the random number)")
             chances += 1
